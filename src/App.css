@@ -2,31 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: url(C:\Users\Saykyo\Desktop\AppkaZaliczenie\zamowienia\public\assets\salatka.jpg);
+  background-size: 100%;
+  background-position: 0 -250px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+.App-header h1{
+  font-size: 70px;
+  padding-top: 60px;
+  font-weight: 900;
+  text-shadow: cadetblue 4px 4px 4px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +28,98 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.zawartosc {
+  display: flex;
+}
+
+.skomponuj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+}
+
+.dodatek_ikonka {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(157, 255, 217);
+  border-radius: 15%;
+  border: cadetblue;
+  border-style: dotted;
+}
+
+.dodatki {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1/3;
+
+}
+.dodatekRzad {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  margin: 5px 0;
+
+}
+
+.zamowienieRzad {
+  display: flex;
+  padding-right: 20px;
+  
+}
+
+.dodatekRzad p:last-child {
+margin-left: auto;
+}
+
+.zamowienieRzad h3:last-child {
+  margin-left: auto;
+  cursor: pointer;
+  background-color: rgb(247, 112, 112);
+  border-radius: 50%;
+}
+
+.wielkosc {
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 50%;
+}
+.wielkosc.zaznaczone {
+  background-color:slateblue;
+}
+.wielkosc.mala {
+  width: 50px;
+  height: 50px;
+}
+.wielkosc.duza {
+  width: 70px;
+  height: 70px;
+}
+
+button {
+padding: 3px 10px;
+font-size: 20px;
+background-color: darkcyan;
+color: white;
+border-radius: 15%;
+}
+
+button:disabled {
+  background-color: gray;
+  color: darkgray;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 1100px){
+  .dodatki {
+    
+    grid-template-columns: 1fr 1fr;
+    
+  
   }
 }

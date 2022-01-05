@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Zamowienie from './components/zamowienie';
+import Skomponuj from './components/skomponuj';
 
 function App() {
+
+const [salatka, setSalatka] = useState(null);
+
+const otrzymajSalatke = salatka => {
+
+  setSalatka(salatka);
+}
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <div className="zawartosc"> 
+      <Skomponuj otrzymajSalatke={otrzymajSalatke} />
+      <Zamowienie nowaSalatka={salatka}/>
+      </div>
+     
+
     </div>
   );
 }

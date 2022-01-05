@@ -1,0 +1,146 @@
+[
+{
+    "nazwa": "bekon",
+    "koszt": 150
+},
+{
+    "nazwa": "camembert",
+    "koszt": 100
+},
+{
+    "nazwa": "cebula",
+    "koszt": 50
+},
+{
+    "nazwa": "cheddar",
+    "koszt": 100
+},
+{
+    "nazwa": "chili",
+    "koszt": 50
+},
+{
+    "nazwa": "czerwonakapusta",
+    "koszt": 0
+},
+{
+    "nazwa": "czosnek",
+    "koszt": 30
+},
+{
+    "nazwa": "feta",
+    "koszt": 100
+},
+{
+    "nazwa": "gorgonzola",
+    "koszt": 100
+},
+{
+    "nazwa": "kukurydza",
+    "koszt": 40
+},
+{
+    "nazwa": "marchew",
+    "koszt": 60
+},
+{
+    "nazwa": "mozarella",
+    "koszt": 100
+},
+{
+    "nazwa": "ogorek",
+    "koszt": 45
+},
+{
+    "nazwa": "oliwki",
+    "koszt": 100
+},
+{
+    "nazwa": "papryka",
+    "koszt": 50
+},
+{
+    "nazwa": "parmezan",
+    "koszt": 100
+},
+{
+    "nazwa": "pepperoni",
+    "koszt": 170
+},
+{
+    "nazwa": "pieczarki",
+    "koszt": 55
+},
+{
+    "nazwa": "plesniowy",
+    "koszt": 200
+},
+{
+    "nazwa": "pomidor",
+    "koszt": 35
+},
+{
+    "nazwa": "por",
+    "koszt": 30
+},
+{
+    "nazwa": "rzodkiew",
+    "koszt": 25
+},
+{
+    "nazwa": "salata",
+    "koszt": 0
+},
+{
+    "nazwa": "szczypior",
+    "koszt": 20
+},
+{
+    "nazwa": "tunczyk",
+    "koszt": 300
+},
+{
+    "nazwa": "ziemniak",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "slodkokwasny",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "ocetwinny",
+    "koszt": 100
+}
+,
+{
+    "nazwa": "ketchup",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "salsa",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "wasabi",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "koperkowy",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "majonez",
+    "koszt": 20
+}
+,
+{
+    "nazwa": "musztarda",
+    "koszt": 20
+}
+]
